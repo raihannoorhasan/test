@@ -1,0 +1,29 @@
+$primary: red;
+$secondary: lime;
+$optional: hsl(186, 90%, 53%);
+
+body {
+  background-color: red;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  background-color: $secondary;
+  height: 50vh;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  section {
+    height: 25vh;
+    background-color: $optional;
+    width: 80%;
+    h1 {
+      color: white;
+      text-align: center;
+    }
+  }
+}
